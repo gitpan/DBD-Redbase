@@ -3,7 +3,7 @@ Redbase.pm
 Makefile.PL
 LICENSE.TXT
 MANIFEST
-README.TXT
+README
 Redbase/DataStream.pm
 t/00base.t
 t/10dsnlist.t

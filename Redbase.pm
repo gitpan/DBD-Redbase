@@ -16,7 +16,7 @@
 #
 #  Copyright (c) 2002 Bungisoft, Inc.
 #
-#  Version: $Id: Redbase.pm,v 1.3 2002/08/23 15:52:06 ilya Exp $
+#  Version: $Id: Redbase.pm,v 1.4 2003/10/22 02:53:55 ilya Exp $
 #
 ###############################################################################
 package DBD::Redbase;
@@ -28,7 +28,7 @@ use IO::Socket;
 
 use vars qw($err $errstr $sqlstate $drh $VERSION @ISA $redbase_port $status_data $status_error $status_update);
 
-$VERSION = '0.21';
+$VERSION = '0.22';
 $redbase_port = 6238;
 $status_update = 0;
 $status_error = 1;

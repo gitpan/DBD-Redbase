@@ -1,12 +1,12 @@
-DBD::Redbase version 0.21
+DBD::Redbase version 0.22
 =======================
-Copyright (C) 2002 Bungisoft, Inc. All rights reserved.
+Copyright (C) 2002-2003 Bungisoft, Inc. All rights reserved.
 
 This is a DBD driver for a Pure Java database - RedBase that could be found at:
 
 http://www.bungisoft.com/html/products/redbase/redbase.html
 
-Please note that this driver currently supports only version 1.5.0 of RedBase.
+Please note that this driver currently supports RedBase version 1.5 and above.
 Support for older versions is not implemented. The only mode of RedBase
 operation that this driver supports is "Server" currently this driver does not
 support "webserver" or "servlet" modes. This driver was build to support DBI
@@ -154,7 +154,6 @@ down by various DBI handle types:
 *******************************************************************************
 *  YOU ARE REQUIRED TO READ LICENSE AGREEMENT BEFORE INSTALLING THIS MODULE!  *
 *******************************************************************************
-
 INSTALLATION
 
 To install this module type the following:
@@ -190,9 +189,8 @@ SUPPORT
 Please direct any support question to support@bungisoft.com or visit our
 support forums at:
 
-http://www.bungisoft.com/cgi-bin/ubbcgi/Ultimate.cgi
+http://www.bungisoft.com/html/forum-frames.html
 
 Please note: Installation support will only be available on case-by-case basis
 due to the ammount of different systems and configuration options under which
 this driver can be installed.
-
